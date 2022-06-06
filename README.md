@@ -11,4 +11,6 @@
 - um linguagem interpretada 
 
 <h5>Fase de execução do java</h5>
-![010102_imagem031](https://user-images.githubusercontent.com/47674343/172265704-bb6714a3-1649-4456-bbbd-7aac1125507a.png)
+
+![010102_imagem031](https://user-images.githubusercontent.com/47674343/172265799-a9399ff7-b387-4c1c-a943-cd7fa7a709b4.png)
+
