@@ -46,4 +46,13 @@ java e um linguagem compilada para bytecode e interpretada pelo um maquina virtu
 <h5>JDK X JRE</h5>
 
 - JDK (java development kit ) e o kit de desenvolvimento java responsável por compila o código-fonte (.java) em bytecode (.class)
-- JVM (Java virtual machine)
+- JVM (Java virtual machine) e a maquina virtual do java responsável por executar o bytecode
+- JRE (Java Runtime Environment) Ambiente de execução do java que fornece as biblioteca padro do java para o JDK compilando o código para a JVM
+
+<h5>Versões java</h5>
+- OpenJDK código aberto
+- JDK Oracle Paga
+
+
+<h5>O que e IDE?</h5>
+-IDE (Ambiente de desenvolvimento integrado)
