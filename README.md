@@ -66,7 +66,7 @@ java e um linguagem compilada para bytecode e interpretada pelo um maquina virtu
 
 
 * Padrão de definição
-<?visibilidade?><?MOdificador?>tipo nome <?=ValorInicial?>;
+<?visibilidade?><?modificador?>tipo nome <?=ValorInicial?>;
 
 V: public protected e private.
 M: static e final.
@@ -105,15 +105,51 @@ VI: um valor inicial, caso se deseje.
 
 <h3>Conversões(Casting)</h3>
 
-```
- E a transformação de um determinada variável de tipo menos específicos para um tipo mais especifico
-```
+* E a transformação de um determinada variável de tipo menos específicos para um tipo mais especifico
+
 * Tipos 
   - IpCast(Implícito)
   - Downcast(Explicito)
 
 <h3>Métodos</h3>
 
+* E um porcão de código (sub rotina) que e disponibilizada por uma classes. Este e executado quando e feita um requisição a ele. sao respostáveis por definir e realizar um determinado comportamento
 
-`E um porcão de código (sub rotina) que e disponibilizada por uma classes. Este e executado quando e feita um requisição a ele. sao respostáveis por definir e realizar um determinado comportamento
-`
+* Padrão de definição
+<?visibilidade?><?tipo?><?modificador?>retorno nome (<?parâmetro?>)<?exceções?>corpo;
+
+V: public protected e private.
+T: concreto ou abstrato.
+M: static e final.
+R: tipo de dado ou void.  
+N: nome que e fornecido ao métodos.
+P: parâmetro que pode receber.
+E: Exceções que pode lançar.
+C: código que possui ou vazio
+
+* Particularidade
+  - assinatura: e a forma de identificar unicamente o metodo
+    - ass = nome + parâmetros
+
+* passagem de parâmetros
+  - Por valor (cópia)
+  - por referência(endereço)
+
+  
+
+* Atividade 
+
+  -Cria uma aplicação que resolva as seguintes situações:
+    
+    - Calcule as 4 operações básicas: soma, subtração, multiplicação e divisão. Sempre 2 valores devem ser passados.
+    
+    - A partir da hora do dia, informe a mensagem adequada: Bom dia, Boa tarde e Boa noite.
+
+    - Calcule o valor final de um empréstimo, a partir
+     do valor solicitado. Taxas e parcelas influenciam.
+     Defina arbitrariamente as faixas que influenciam
+     nos valores.
+
+
+     Resolução:
+     (Exercícios realizado)[https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo] 
