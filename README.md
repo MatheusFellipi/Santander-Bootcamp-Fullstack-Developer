@@ -214,8 +214,15 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
 <h3>Blocos</h3>
 * e um grupo de 0 ouo mias código quais trabalham em conjunto para executar uma operação
 
-<h3>
-Estrutura de Repeticao</h3>
+<h3>Estrutura de Repetição</h3>
+* uma estrutura de repetição permita que um sequencia de comando seja executada repetidamente, caso determinadas coedições seja satisfeita
+
+* Repetição com teste no inicio (while)
+* Repetição com teste final (do-while)
+* Repetição contada (for)
+  - Break e utilizado para terminar de forma abrupta um repetição
+  - Continue e for executado ele volta para testar novamente ou nao. 
+
 
 <h3>Debugging java</h3>
 
