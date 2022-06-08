@@ -214,10 +214,11 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
 <h3>Blocos</h3>
 * e um grupo de 0 ouo mias código quais trabalham em conjunto para executar uma operação
 
-
+<h3>
+Estrutura de Repeticao</h3>
 
 <h3>Debugging java</h3>
 
 Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.
 
-[Codigo usando para teste de Debugging](https://github.com/cami-la/debugging-java)
+[Código usando para teste de Debugging](https://github.com/cami-la/debugging-java)
