@@ -166,3 +166,58 @@ C: código que possui ou vazio
 
     - Resolução:
         [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo) 
+
+<h3> Retorno </h3>
+
+* Retorno - É uma instrução de interrupção
+* Simbologia: return
+*O continue e o break também são instruções de interrupção, mas estão mais atrelados a laços de repetição e o retorno está atrelado a métodos.
+
+* O método executa seu retorno quando:
+  * Completa todas suas instruções internas
+  * Chega a uma declaração explícita de retorno
+  * Lança uma exceção
+
+*O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+* O tipo de dado do return deve ser compatível com o do método;
+* Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
+
+Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores.
+
+ - Resolução:
+        [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo)
+
+
+<h3>Operadores relacionais</h3>
+
+* sao símbolos especiais quais sao capazes de realizar comparações entre determinados operados , em seguida, retorna um resultado.
+
+* Similaridade 
+  - Igualdade: determina se o operado e igual au outro.
+  - Diferençá: determina se o operado e nao igual au outro.
+
+* Tamanho 
+  - Maior: determina se o operado e maior au outro.
+  - Maior igual: determina se o operado e maior ou igual ao outro.
+  - Menor: determina se o operado e menor au outro
+  - Menor igual: determina se o operado e menor ou igual ao outro.
+
+<h3>Operadores lógicos</h3>
+* Sao simbolo especiais quais sao capazes de realizar comparações logicas entre operandos lógicos ou expressões e, em seguida, retorna um resultado
+
+
+
+<h3>Controle de fluxo</h3>
+* sao estrutura que tem a capacidade de direcionar o fluxo de execução do código.
+
+
+<h3>Blocos</h3>
+* e um grupo de 0 ouo mias código quais trabalham em conjunto para executar uma operação
+
+
+
+<h3>Debugging java</h3>
+
+Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.
+
+[Codigo usando para teste de Debugging](https://github.com/cami-la/debugging-java)
