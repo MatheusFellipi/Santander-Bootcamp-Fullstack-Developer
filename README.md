@@ -151,5 +151,18 @@ C: código que possui ou vazio
      nos valores.
 
 
-     Resolução:
-     [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo) 
+      - Resolução:
+          [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo) 
+
+     <h3>Sobre carga</h3>
+
+     * E a capacidade de definir métodos para diferente contextos, mais preservando seu nome.
+    
+    * O nome se mandem e muda apenas os parâmetros
+
+
+    * Cria uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio.
+      * Obs: Use sobrecarga.
+
+    - Resolução:
+        [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo) 
