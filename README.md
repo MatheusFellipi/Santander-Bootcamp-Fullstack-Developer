@@ -114,6 +114,6 @@ VI: um valor inicial, caso se deseje.
 
 <h3>Métodos</h3>
 
-```
-E um porcão de código (sub rotina) que e disponibilizada por uma classes. Este e executado quando e feita um requisição a ele. sao respostáveis por definir e realizar um determinado comportamento
-```
+
+`E um porcão de código (sub rotina) que e disponibilizada por uma classes. Este e executado quando e feita um requisição a ele. sao respostáveis por definir e realizar um determinado comportamento
+`
