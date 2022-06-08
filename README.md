@@ -8,7 +8,7 @@
 - E um linguagem de orientação a objeto.
 - um linguagem interpretada .
 
-<h5>Fase de execução do java</h5>
+<h3>Fase de execução do java</h3>
 <div style={{
   display: 'flex',
   justifyContent: 'center',
@@ -23,7 +23,7 @@ java e um linguagem compilada para bytecode e interpretada pelo um maquina virtu
 
 <hr/>
 
-<h5>Plataforma X linguagem</h5>
+<h3>Plataforma X linguagem</h3>
 <p>
   a linguagem java nao e a única da sua plataforma mais e a mais convencional .
 </p>
@@ -41,21 +41,21 @@ java e um linguagem compilada para bytecode e interpretada pelo um maquina virtu
 - Java EE (java Platform, Enterprise edition) cuida do desenvolvimento web.
 - Java ME (java Platform, Micro edition)  cuida para dispositivo mobile e embarcados .
 
-<h5>JDK X JRE</h5>
+<h3>JDK X JRE</h3>
 
 - JDK (java development kit ) e o kit de desenvolvimento java responsável por compila o código-fonte (.java) em bytecode (.class).
 - JVM (Java virtual machine) e a maquina virtual do java responsável por executar o bytecode.
 - JRE (Java Runtime Environment) Ambiente de execução do java que fornece as biblioteca padro do java para o JDK compilando o código para a JVM.
 
-<h5>Versões java</h5>
+<h3>Versões java</h3>
 - OpenJDK código aberto.
 - JDK Oracle Paga.
 
 
-<h5>O que e IDE?</h5>
+<h3>O que e IDE?</h3>
 -IDE (Ambiente de desenvolvimento integrado).
 
-<h5>Variável do java</h5>
+<h3>Variável do java</h3>
 - variável e um espaços na memoria do comportador, onde se pode guarda valors.
 
 * Tipos
@@ -70,13 +70,13 @@ java e um linguagem compilada para bytecode e interpretada pelo um maquina virtu
 
 V: public protected e private.
 M: static e final.
-T: tipo de dado.
+T: tipo de dado.  
 N: nome que e fornecido a variável.
 VI: um valor inicial, caso se deseje.
 
 * Sempre tenho boa pratica na criação das variáveis.
 
-##### tipos de dados 
+<h4>tipos de dados</h4>
 
 * Sao os valores e consequentemente operações que as variáveis podem assumir e sofrer respectivamente.
 
@@ -88,4 +88,29 @@ VI: um valor inicial, caso se deseje.
     - os dados primitivo sao valores numéricos, texto..., sao dados básico que todas as linguagens, os tipos composto sao heterogenia, pode der vários tipo de dados na estrutura.
 
 * Operadores Aritméticos
- -
+ - Sao símbolos especiais quais sao capazes de realizar acoes especificas em um, dos ou mias operandos e, em seguida, retorna um resultados.
+
+ - Tipos
+  - Pos-fixado: exp++ ou exp--
+  - Prefixado: ++exp ou --exp 
+  - Aritmético: +, -, *, /, %
+  - Atribuição: =, +=, -=, *=, /= e %=
+
+  * as prioridade das execução sao:
+    - Pos-fixado: exp++ ou exp--
+    - Prefixado: ++exp ou --exp 
+    - Múltiplo: *, /, %
+    - Aditivo: +, -, 
+    - Atribuição: =, +=, -=, *=, /= e %=
+
+<h3>Conversões(Casting)</h3>
+
+``` E a transformação de um determinada variável de tipo menos específicos para um tipo mais especifico
+```
+* Tipos 
+  - IpCast(Implícito)
+  - Downcast(Explicito)
+
+<h3>Métodos</h3>
+
+```E um porcão de código (sub rotina) que e disponibilizada por uma classes. Este e executado quando e feita um requisição a ele. sao respostáveis por definir e realizar um determinado comportamento```
