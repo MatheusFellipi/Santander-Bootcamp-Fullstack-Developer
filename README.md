@@ -152,4 +152,4 @@ C: código que possui ou vazio
 
 
      Resolução:
-     (Exercícios realizado)[https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo] 
+     [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo) 
