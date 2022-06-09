@@ -223,7 +223,20 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
   - Break e utilizado para terminar de forma abrupta um repetição
   - Continue e for executado ele volta para testar novamente ou nao. 
 
-[Atividade realizada]()
+[Atividade realizada](https://github.com/MatheusFellipi/DIO_Atividade_Loops)
+
+
+
+<h3>Tratamento de erro</h3>
+
+* identificar possíveis exceções de um aplicação Java e interpretar eventuais pilhas de exceção
+* Exceção é um evento que interrompe o fluxo normal do processamento de uma classe.
+* O uso correto de exceções torna o programa mais robusto e confiável.
+Com o tratamento de exceções, um programa pode continuar executando depois de lidar com um problema.
+* Importante: Incorpore sua estratégia de tratamento de exceções no sistema desde o princípio do processo do projeto.
+* Pode ser difícil incluir um tratamento de exceções eficiente depois que um sistema foi implementado.
+
+
 
 
 <h3>Debugging java</h3>
