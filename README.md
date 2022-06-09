@@ -223,6 +223,8 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
   - Break e utilizado para terminar de forma abrupta um repetição
   - Continue e for executado ele volta para testar novamente ou nao. 
 
+[Atividade realizada]()
+
 
 <h3>Debugging java</h3>
 
