@@ -235,7 +235,12 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
 Com o tratamento de exceções, um programa pode continuar executando depois de lidar com um problema.
 * Importante: Incorpore sua estratégia de tratamento de exceções no sistema desde o princípio do processo do projeto.
 * Pode ser difícil incluir um tratamento de exceções eficiente depois que um sistema foi implementado.
+* Error: Usado pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução impossível de continuar.
+* Unchecked (Runtime): Exceptions que PODEM ser evitados se forem tratados e analisados pelo desenvolvedor.
+* Checked Exception: Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar.
+* Para trabalhos com exceções usa o try catch finally.
 
+[Os exemplo de Tratamento de erro ](https://github.com/cami-la/exceptions-java)
 
 
 
