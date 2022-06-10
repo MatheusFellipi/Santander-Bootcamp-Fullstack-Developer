@@ -205,8 +205,6 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
 <h3>Operadores lógicos</h3>
 * Sao simbolo especiais quais sao capazes de realizar comparações logicas entre operandos lógicos ou expressões e, em seguida, retorna um resultado
 
-
-
 <h3>Controle de fluxo</h3>
 * sao estrutura que tem a capacidade de direcionar o fluxo de execução do código.
 
@@ -225,8 +223,6 @@ Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora f
 
 [Atividade realizada](https://github.com/MatheusFellipi/DIO_Atividade_Loops)
 
-
-
 <h3>Tratamento de erro</h3>
 
 * identificar possíveis exceções de um aplicação Java e interpretar eventuais pilhas de exceção
@@ -241,8 +237,6 @@ Com o tratamento de exceções, um programa pode continuar executando depois de 
 * Para trabalhos com exceções usa o try catch finally.
 
 [Os exemplo de Tratamento de erro ](https://github.com/cami-la/exceptions-java)
-
-
 
 <h3>Debugging java</h3>
 
