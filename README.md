@@ -268,3 +268,7 @@ Com o tratamento de exceções, um programa pode continuar executando depois de 
 Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.
 
 [Código usando para teste de Debugging](https://github.com/cami-la/debugging-java)
+
+
+
+<h1> String Boot <h1>
