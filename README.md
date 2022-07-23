@@ -20,10 +20,15 @@ Fortalece o html
 
 <h3>Diretivas</h3>
 
-As diretivas são marcadores em um elemento DOM (como um atributo) que informam
-ao Angular para anexar um comportamento especificado a um elemento existente.
-Existem muitas diretivas prontas que podemos usar e também podemos criar nossas
-próprias diretivas.
+As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
+
+- Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exemplo,
+`NgClass` e `NgStyle`.
+
+- Diretivas estruturais: Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, `NgIf` e `NgFor`.
+
+As diretivas são marcadores em um elemento DOM (como um atributo) que informam ao Angular para anexar um comportamento especificado a um elemento existente.
+Existem muitas diretivas prontas que podemos usar e também podemos criar nossas próprias diretivas.
 
 - `ngIf`: Esta é uma diretiva que você adiciona a um elemento na marcação, geralmente
   para um elemento de contâiner como um div.
@@ -103,6 +108,54 @@ dentro de si.
 - Não ficam responsáveis por recuperar dados ou lidar com lógica de negócio
 - Não causam efeitos colaterais na aplicação
 - Recebem dados via @Input e emite eventos via @Output
+<h3> Componentes inteligentes </h3>
+- Parecido com funções impuras
+- Contém toda a lógica de negócio
+- São internamente compostos por componentes
+apresentacionais
+- Ficam responsáveis por repassar os dados para os
+componentes apresentacionais apresentaram ao usuário final
+
+<h3>Design Modular</h3>
+
+- Dividisão da aplicação web em módulos de recursos que representam diferentes funcionalidades de negócios.
+
+- Core Module: define serviços singleton, componentes de instância única, configuração e exportação de quaisquer módulos de terceiros necessários no módulo principal (App Module).
+ 
+- Shared Module: contém componentes/pipes/diretivas comuns e também exporta módulos do Angular usados com frequência (CommonsModule)
+
+- Feature Module: organiza um conjunto de recursos da aplicação num módulo de funcionalidade.
+  
+- Library: possui código que pode ser reutilizável entre diferentes aplicações.
+
+- Angular Element: recurso do angular para criar web components, padrão da web para definir novos elementos HTML de uma maneira independente de estrutura e agnóstica de frameworks.
+
+
+<h3> SMACSS </h3>
+
+SMACSS é uma arquitetura modular e escalável para CSS, dividida
+
+em 5 camadas. Sendo elas:
+
+- Base: estilização de seletores e pseudo-classes, além de resets
+
+- Layout: principais componentes como cabeçalho, rodapé, entre outros.
+
+- Module: componentes reutilizáveis como botões e ícones.
+
+- State: todo elemento que será modificado ou terá alguma alteração no seu estado inicial.
+
+- Theme: temas específicos para uma mesma aplicação.
+
+<h3> BEM CSS </h3>
+
+A sigla BEM significa block, element, modifier (bloco, elemento e modificador) , sendo uma metodologia que segue esses conceitos para definir uma nomenclatura de nomes para classes CSS.
+
+<h3> OOCSS </h3>
+
+O OOCSS (CSS orientado à objeto) é uma metodologia que identifica um
+padrão visual que pode se repetir no projeto e o agrupa em classes,
+tornando-os reutilizáveis.
 <hr/>
 
 <h1>Java</h1>
