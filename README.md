@@ -23,7 +23,7 @@ Fortalece o html
 As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
 
 - Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exemplo,
-`NgClass` e `NgStyle`.
+  `NgClass` e `NgStyle`.
 
 - Diretivas estruturais: Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, `NgIf` e `NgFor`.
 
@@ -66,6 +66,15 @@ A arquitetura de componentes baseia-se na construção de componentes independen
 
 <h3> Serviços </h3>
 
+Um serviço Angular reutilizável é projetado para encapsular a lógica de negócios e os dados com diferentes componentes do Angular. É basicamente uma classe que tem um propósito bem definido para fazer algo. Você pode criar uma classe de serviço para dados ou lógica que não está associada a nenhuma visualização específica para compartilhar entre os
+componentes.
+
+Se você escrever toda a lógica de negócios em componentes, terá os seguintes problemas:
+
+- Você não poderá reutilizar essa lógica em nenhum outro lugar e terá que recodificar toda a lógica no componente de destino.
+
+- A manutenção de seus componentes será difícil, pois você terá que manter duas cópias do mesmo código.
+
 - Responsáveis por organizar e compartilhar lógica de negócios
 
 - Reutilizáveis entre diferentes componentes de um aplicação
@@ -78,10 +87,14 @@ estágios de um componente.
 
 <h3> Injeção de dependência</h3>
 
-Todo serviço é uma dependência que precisa ser instanciada dentro do
-componente para ser utilizada pelo mesmo. No angular, o componente
-pede para aplicação quais dependências ele precisa e então as injeta
-dentro de si.
+A injeção de dependência é usada para fornecer aos
+componentes os serviços que eles podem usar. Para definir uma classe como um serviço no Angular, o decorator `@Injectable()` é usado.
+
+Ele fornece os metadados que permitem ao Angular injetá-los em um componente como uma dependência.
+
+Da mesma forma, o decorator `@Injectable()` é usado para indicar que um componente ou outra classe (como outro serviço, um pipe ou um NgModule) possui uma dependência.
+
+Todo serviço é uma dependência que precisa ser instanciada dentro do componente para ser utilizada pelo mesmo. No angular, o componente pede para aplicação quais dependências ele precisa e então as injeta dentro de si.
 
 <h3>Constructor vs ngOnInit</h3>
 
@@ -121,15 +134,13 @@ componentes apresentacionais apresentaram ao usuário final
 - Dividisão da aplicação web em módulos de recursos que representam diferentes funcionalidades de negócios.
 
 - Core Module: define serviços singleton, componentes de instância única, configuração e exportação de quaisquer módulos de terceiros necessários no módulo principal (App Module).
- 
+
 - Shared Module: contém componentes/pipes/diretivas comuns e também exporta módulos do Angular usados com frequência (CommonsModule)
 
 - Feature Module: organiza um conjunto de recursos da aplicação num módulo de funcionalidade.
-  
 - Library: possui código que pode ser reutilizável entre diferentes aplicações.
 
 - Angular Element: recurso do angular para criar web components, padrão da web para definir novos elementos HTML de uma maneira independente de estrutura e agnóstica de frameworks.
-
 
 <h3> SMACSS </h3>
 
@@ -156,6 +167,7 @@ A sigla BEM significa block, element, modifier (bloco, elemento e modificador) ,
 O OOCSS (CSS orientado à objeto) é uma metodologia que identifica um
 padrão visual que pode se repetir no projeto e o agrupa em classes,
 tornando-os reutilizáveis.
+
 <hr/>
 
 <h1>Java</h1>
