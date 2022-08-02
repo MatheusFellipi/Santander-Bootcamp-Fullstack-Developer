@@ -321,7 +321,7 @@ C: código que possui ou vazio
     - Resolução:
       [Exercícios realizado](https://github.com/MatheusFellipi/DIO_Atividade_Java_Curso_metodo)
 
-     <h3>Sobre carga</h3>
+ <h3>Sobre carga</h3>
 
   - E a capacidade de definir métodos para diferente contextos, mais preservando seu nome.
 
@@ -434,10 +434,33 @@ Erros de programação são denominados bugs e o processo de encontrar e corrigi
 
 [Código usando para teste de Debugging](https://github.com/cami-la/debugging-java)
 
-<h1> String Boot <h1>
 
-Para um arquivo de confirugacao e necessário definir ele como arquivo de configuracao
-`@Configuration` e ``@configurationProperties("spring.datasouce")` mapea as configuracao do ambiente.
 
-Para configuracaoo banco de dados com um ambiente de desenvolvimento e protucao
-usar o `@profile("Ambiente")` para essa configuracao.
+<h1> String Boot </h1>
+
+Enquanto que o Spring Framework é baseado no padrão de injeção de dependências, o Springboot foca na configuração automática. Dado que a maior parte das configurações necessárias para o início de um projeto são sempre as mesmas, por que não iniciar um projeto com todas estas configurações já definidas?
+
+Para um arquivo de configuração e necessário definir ele como arquivo de configuração
+`@Configuration` e ``@configurationProperties("spring.datasouce")` mapeá as configuração do ambiente.
+
+Para configuracaoo banco de dados com um ambiente de desenvolvimento e produção
+usar o `@profile("Ambiente")` para essa configuração.
+
+<h3> Componentes `@Component`</h3>
+
+E o que vai ser escaneado na aplicação, usa quando tenho o código fonte
+
+<h3> Beans `@Beans`</h3>
+
+Quando e um biblioteca externar , quando nao tem acesso ao código.
+
+
+<h3>O que é ORM?</h3>
+
+Object-Relational Mapping, Em português, mapeamento objeto-relacional, é um recurso para aproximar o paradigma da orientação a objetos ao contexto de banco de dados relacional.
+
+O uso de ORM é realizado através do mapeamento de objeto para uma tabela por uma biblioteca ou framework.
+
+<h3>O que é JPA?</h3>
+
+JPA é uma especificação baseada em interfaces, que através de um framework realiza operações de persistência de objetos em Java.
